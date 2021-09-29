@@ -1,0 +1,23 @@
+Task 01 {
+Given -- creating 2 methods with different namespaces 
+         one takes integer and other float
+         both returns sum.
+
+Result--using scope resolution operator its solved ex.( first::add(10,20);   second::add(5.1,2.2);    )
+
+} Task 01 end .
+
+
+
+Task 02{
+Given --  using both namespaces in header created in Task 01 .
+          call add method without scope resoltuion operator .
+
+
+Result--add(10,20) id ok but  add(5.1,2.2) giver add(double ,double) is ambiguos ..compiler treats 5.1 as a double and there aint function with double
+
+Solution-- so to solve this error declare number with suffix 
+            { 5.1f } so compiler knows its float and can reach the function with float argument.
+            Fn overloading!!!!
+
+}  Task 02 End
