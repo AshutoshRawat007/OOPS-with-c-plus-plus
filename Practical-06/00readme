@@ -1,0 +1,37 @@
+Task 1 {
+        string + int ;
+        error --> mismatch types // no match for + operator
+        reason--> in string class '+' is only defined for string + string as a concatenation function     hence the error as it cant convert int to string
+        
+        }
+       
+       
+Task 2 {
+        check for palindrome;
+        
+        sol--> just iterate string from reverse and compare it orgnal string which iterated forward
+        }
+        
+Task 3 {
+        reverse string using reverse function and then manually 
+        status--> done 
+        }
+Task 4 {
+        compare strings manually;
+        sol--> to compare manually 
+                1.check for there length sizes if different then not equal obviously
+                2.if length = then iteratre forward and check subtract [charcter of b from a] and type cast to int
+       }
+       
+Task 5 {
+        use compare function;
+        }
+Task 6 {
+        check if string in c++ are mutable;
+        sol--> yes they are mutable to prove print address of orignal string then maked changes to it then again print address -- they will be same
+        }
+        
+        
+
+
+        
